@@ -82,11 +82,11 @@ const AlbumListing = (props) => {
         })
       }
     
-      <CardFooter className="border-top">
+     { props.mergedData && props.mergedData.length>=1 && <CardFooter className="border-top">
         <Row>
           <Col className="text-center view-report">
             {
-              props.mergedData && props.mergedData.length>=1 && <Pagination
+               <Pagination
               current={pageNumber}
               onChange={onPaginationChange}
               count={props.mergedData && props.mergedData.length >= 1 && props.mergedData.length}
@@ -94,7 +94,7 @@ const AlbumListing = (props) => {
             }
           </Col>
         </Row>
-      </CardFooter>
+      </CardFooter>}
     </div>
   )
 }

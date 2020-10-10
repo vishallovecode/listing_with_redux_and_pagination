@@ -1,1 +1,1 @@
-export { buyCake,updateReadingListData,updateImageListData } from './cake/cakeActions'
+export { buyCake,updateReadingListData,updateImageListData } from './actions/Actions'

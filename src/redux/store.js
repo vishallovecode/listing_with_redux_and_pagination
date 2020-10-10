@@ -1,5 +1,5 @@
 import { createStore } from 'redux'
- import cakeReducer from './cake/cakeReducer'
+ import cakeReducer from './actions/Reducer'
 
  
 

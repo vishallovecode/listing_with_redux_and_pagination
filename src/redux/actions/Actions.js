@@ -1,4 +1,4 @@
-import { BUY_CAKE,UPDATE_READING_LIST_DATA ,UPDATE_IMAGE_LIST_DATA} from './cakeTypes'
+import { BUY_CAKE,UPDATE_READING_LIST_DATA ,UPDATE_IMAGE_LIST_DATA} from './Types'
 
 export const buyCake = (number = 1) => {
   return {
