@@ -1,0 +1,108 @@
+.right-arrow {
+
+    border: 2px solid white;
+
+    background-color: green;
+    color           : white;
+    font-size       : 22px;
+    margin-left     : 10px;
+
+}
+
+.container {
+    margin-top      : 100px;
+    display         : flex;
+    flex-direction  : column;
+    background-color: green;
+
+    margin: 20px;
+
+    color      : white;
+    padding-top: 20px;
+}
+
+.div-container {
+    /* display: flex; */
+    display           : flex;
+    /* justify-content: flex-start; */
+    /* padding-top    : 20px; */
+    padding-bottom    : 10px;
+}
+
+.title {
+    text-transform: uppercase;
+    padding-left  : 10px;
+    font-size     : 22px;
+}
+
+.main-container {
+    display       : flex;
+    flex-direction: column;
+    /* margin     : 0 0 0 100px; */
+    margin        : 20px 100px;
+    cursor: pointer;
+
+}
+
+.btn1{
+    font-family  : -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif;
+    border       : 1px solid transparent;
+    padding      : .5625rem 1rem;
+    font-size    : .75rem;
+    line-height  : 1.125;
+    border-radius: .25rem;
+    transition   : all .25s cubic-bezier(.27, .01, .38, 1.06);
+    border       : none !important;
+    outline      : none !important;
+    cursor       : pointer;
+}
+
+.btn-white1 {
+    color           : #212529;
+    border-color    : #fff;
+    background-color: #fff;
+    box-shadow      : none;
+}
+
+.btn-group1 {
+    position      : relative;
+    padding-top   : 20px;
+    display: block;
+    /* vertical-align: middle; */
+ 
+}
+
+.btn-primary1 {
+    color           : #fff;
+    border-color    : #007bff;
+    background-color: #007bff;
+    box-shadow      : none;
+}
+
+  
+a:-webkit-any-link {
+    text-decoration: none!important;
+}
+.d-flex1
+{
+    display: flex;
+    flex-wrap: wrap;
+   
+    margin-left: 200px;
+}
+.image-card
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    border-radius: .25rem;
+}
+.loader{
+    height: 100px;
+}
+ 
